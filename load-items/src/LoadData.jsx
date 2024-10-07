@@ -38,7 +38,7 @@ const LoadData = () => {
 
   return loading ? (
     <div className="flex items-center justify-center mt-32 font-extrabold text-3xl ">
-      Loading the data...
+      Loading the data.....
     </div>
   ) : (
     <div className="flex flex-col gap-5 items-center justify-center">
