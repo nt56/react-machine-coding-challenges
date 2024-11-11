@@ -1,7 +1,11 @@
-import React from "react";
-
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="container">
+      <div className="row"></div>
+      <div className="row"></div>
+      <div className="row"></div>
+    </div>
+  );
 };
 
 export default App;
