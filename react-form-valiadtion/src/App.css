@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form label {
+  margin-right: 15px;
+}
+
+.error {
+  color: red;
+}
