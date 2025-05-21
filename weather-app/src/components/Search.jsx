@@ -11,11 +11,7 @@ const Search = () => {
         `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${param}&appid=c12adecb5029de9c655f6a1bf9788a6e`
       );
       const json = await data.json();
-      console.log(json);
-
-      if (json) {
-        setWeatherData(json);
-      }
+      setWeatherData(json);
     } catch (error) {
       console.log(error);
     }
